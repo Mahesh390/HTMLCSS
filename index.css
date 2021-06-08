@@ -1,0 +1,389 @@
+@import url(fontawesome-all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("../fontawesome-free-5.15.2-web/css/all.css");
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background: lightgray;
+    font-family: Roboto,Arial,sans-serif;
+    letter-spacing: 0;
+    align-items: center;
+}
+
+#headerblock
+{
+    background-color: blue;
+    height: 60px;
+    padding-top: 10px;
+}
+
+#headerblock article
+{    
+    display: flex;
+    width: 80%;
+    height: 56px;
+    margin: 0 auto;
+    color: white;
+}
+
+.leftblock
+{
+    width: 50%;
+    display: flex;
+}
+
+.rightblock
+{
+    width: 50%;
+}
+
+.parentlogo img
+{
+    width: 75px;
+}
+
+.logoBlock 
+{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.searchBlock
+{
+    width: 75%;
+}
+
+.explore
+{
+    color:#fff;
+}
+
+.plus
+{
+    color: #ffe500;
+    font-weight: 600;
+    margin-right: 2px;
+
+
+}
+
+.logoBlock a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.childlogo img
+{
+    width: 10px;
+}
+
+
+.searchBlock form
+{
+    display: flex;
+}
+
+.searchBlock form input
+{
+    width: 1000px;
+    height: 40px;
+    padding:0 0px 0 30px ;
+    border-radius: 3px;
+    border: none;
+    position: relative;
+    right: 60px;
+}
+
+:placeholder-shown
+{
+    font-size: 15px;
+}
+
+
+.searchIcon
+{
+    position: relative;
+}
+
+.searchIcon i
+{
+    color: #2874f0;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 10px;
+    left: -90px;
+}
+
+/*----rightBlock header css -----*/
+
+.rightBlock {
+    width: 30%;
+    display: flex;
+    
+  }
+  .rightBlock > ul {
+    list-style: none;
+    display: flex;
+  }
+  .rightBlock > ul li {
+    margin: 0 30px ;
+  }
+  
+  .rightBlock > ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .rightBlock .login {
+    background-color: #fff;
+    border-radius: 2px;
+    color: #2874f0;
+    padding: 8px 50px;
+    font-weight: bold;
+    position: relative;
+    top: 9px;
+  }
+  
+  .dropdown {
+    position: absolute;
+    list-style: none;
+    background: #fff;
+    top: 55px;
+    width: 300px;
+    display: none;
+    margin: 0 -67px;
+  }
+  .dropdown li {
+    margin: 0 !important;
+  }
+  
+  .dropdown li a {
+    margin: 0;
+    color: #111 !important;
+    padding: 12px 26px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    
+  }
+  
+  .rightBlock ul li:hover > .dropdown {
+    display: block;
+  }
+  
+  .dropdown aside {
+    position: relative;
+  }
+  
+  .arrow-up {
+    border-bottom: 12px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid  transparent;
+    height: 0;
+    width: 0;
+    margin: auto;
+    position: absolute;
+      top: -8px;
+      left: 44%;
+  }
+
+  .rightBlock .more
+   {
+    color: #2874f0;
+    padding: 8px 92px;
+    font-weight: bold;
+    position: relative;
+    top: 9px;
+    color: white;
+  }
+
+  
+  #drop {
+      
+    position: absolute;
+    list-style: none;
+    background: #fff;
+    top: 45px;
+    width: 270px;
+    display: none;
+    margin: 0 -5px;
+  
+  }
+
+  #drop li 
+  {
+    margin: 0 !important;
+  }
+  
+  #drop li a {
+    margin: 0;
+    color: #111 !important;
+    padding: 12px 26px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    
+  }
+  
+  .rightBlock ul li:hover > #drop {
+    display: block;
+  }
+  
+  #drop aside {
+    position: relative;
+  }
+  
+  #arrow {
+    border-bottom: 12px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid  transparent;
+    height: 0;
+    width: 0;
+    margin: auto;
+    position: absolute;
+      top: -8px;
+      left: 40%;
+  }
+  
+
+
+  .rightBlock .cart
+  {
+   color: #2874f0;
+   padding: 8px 29px;
+   font-weight: bold;
+   position: relative;
+   top: -10px;
+   color: white;
+ }
+
+ #er
+ {
+     position:relative;
+     top: 8px;
+ }
+
+  
+  /*---Offer Block css starts here ----*/
+  #offerBlock {
+    height: 110px;
+      background: #fff;
+      border-bottom: 1px solid #ccc;
+  }
+  
+  #offerBlock article {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 110px;
+    align-items: center;
+  }
+  
+  #offerBlock article div {
+    flex: 1;
+  }
+  
+  #offerBlock article div img {
+    width: 70px;
+  }
+  
+  #offerBlock article div a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #111;
+  }
+
+
+  #menumiddle {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+
+
+}
+#menumiddle nav{
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+#menumiddle nav > ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+#menumiddle nav ul li{
+    margin-right: 72px;
+    position: relative;
+}
+#menumiddle nav >ul li a{
+    color: #111;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 15px;
+}
+.megamiddle{
+    position: absolute;
+    width: 1300px !important;
+    background-color: #fff;
+    height: 92vh;
+    top: 45px;
+    text-align: left;
+    display: none;
+    font-weight: lighter;
+
+}
+.megamiddle div{
+    flex: 1;
+    
+    
+}
+.megamiddle div:nth-child(odd){
+    background-color: #fff;
+}
+.megamiddle div:nth-child(even){
+    background-color:#b9b9b92e;
+}
+.megamiddle ul{
+    list-style: none;
+}
+.megamiddle ul li{
+    margin: 10px 0 !important;
+}
+.megamiddle ul li a{
+    padding: 5px 30px;
+    display: block;
+    font-weight: normal !important;
+    font-size: 10px;
+    
+}
+#menumiddle ul li:hover > .megamiddle{
+    display: flex;
+}
+ 
+#slideblock article img
+{
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+
+}
